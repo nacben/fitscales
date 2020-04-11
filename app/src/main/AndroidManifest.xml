@@ -22,7 +22,8 @@
         <activity
             android:name=".FitscalesActivity"
             android:label="@string/app_name"
-            android:theme="@style/FitScales" >
+            android:theme="@style/FitScales"
+            android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
